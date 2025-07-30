@@ -6,18 +6,26 @@ plugins {
 
 android {
     namespace = "beigi.v.wellconnectspy"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "beigi.v.wellconnectspy"
         minSdk = 24
-        targetSdk = 34
+        //noinspection EditedTargetSdkVersion
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    signingConfigs {
+        create("release") {
+            storeFile = file("well_spy_key.jks")
+            storePassword = "well_spy6450"
+            keyAlias = "spy_key"
+            keyPassword = "well_spy@6450"
+        }
+    }
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -25,11 +33,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_22
+        targetCompatibility = JavaVersion.VERSION_22
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "22"
     }
     buildFeatures {
         compose = true
