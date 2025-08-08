@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Well Connect Spy"
+rootProject.name = "Well Connect Second"
 include(":app")
  

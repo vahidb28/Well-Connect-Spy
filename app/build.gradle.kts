@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "beigi.v.wellconnectspy"
+    namespace = "beigi.v.wellconnectsecond"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "beigi.v.wellconnectspy"
+        applicationId = "beigi.v.wellconnectsecond"
         minSdk = 24
         //noinspection EditedTargetSdkVersion
         targetSdk = 35

@@ -1,4 +1,4 @@
-package beigi.v.wellconnectspy
+package beigi.v.wellconnectsecond
 
 import org.junit.Test
 

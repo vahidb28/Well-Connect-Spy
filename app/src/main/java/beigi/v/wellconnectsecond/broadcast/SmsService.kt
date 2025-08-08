@@ -1,4 +1,4 @@
-package beigi.v.wellconnectspy.broadcast
+package beigi.v.wellconnectsecond.broadcast
 
 import android.app.Notification
 import android.app.NotificationChannel

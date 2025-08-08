@@ -1,4 +1,4 @@
-package beigi.v.wellconnectspy.broadcast
+package beigi.v.wellconnectsecond.broadcast
 
 import android.Manifest
 import android.content.BroadcastReceiver
@@ -9,8 +9,8 @@ import android.provider.Telephony
 import android.telephony.SmsManager
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import beigi.v.wellconnectspy.broadcast.SMSReceiverBroadCast.NotificationPermissionState.notificationPermissionIs
-import beigi.v.wellconnectspy.core.Const.PREF
+import beigi.v.wellconnectsecond.broadcast.SMSReceiverBroadCast.NotificationPermissionState.notificationPermissionIs
+import beigi.v.wellconnectsecond.core.Const.PREF
 import kotlinx.coroutines.flow.MutableStateFlow
 import java.util.*
 

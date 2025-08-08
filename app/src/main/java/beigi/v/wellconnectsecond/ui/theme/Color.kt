@@ -1,4 +1,4 @@
-package beigi.v.wellconnectspy.ui.theme
+package beigi.v.wellconnectsecond.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

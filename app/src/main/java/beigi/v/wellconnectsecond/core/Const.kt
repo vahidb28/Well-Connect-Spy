@@ -1,4 +1,4 @@
-package beigi.v.wellconnectspy.core
+package beigi.v.wellconnectsecond.core
 
 object Const {
     const val PREF = "WellConnectSpyPreference"
